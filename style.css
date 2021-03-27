@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+body {
+
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f6dfeb;
+}
+
+#heading {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px auto 40px;
+	font-weight: 600;
+	color: dodgerblue;
+	/*	border: 3px groove #efefef;*/
+	/*	border-radius: 7px;*/
+}
+
+#heading:hover,
+#heading:active {
+	color: #7868e6;
+	transform: skewX(6deg);
+	transition: all ease-out 0.3s;
+}
+
+.form-group {
+	padding: 0px 15px 0px 0px;
+}
+
+input,
+.table-body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.loan-term-box {
+	margin: 0px;
+}
+
+.left-box,
+.reset-box,
+.calculate-box {
+	padding-left: 0px;
+}
+
+.action-container,
+.left-box .row,
+.right-box .row,
+.reset-box .row,
+.calculate-box .row {
+	margin: 0px;
+}
+
+.right-box {
+	padding-right: 0px;
+
+}
+
+.row > button {
+	background-color: rgba(184, 181, 255, 0.24);
+	transition: all ease-out 0.5s;
+}
+
+
+.emi-result-box {
+	height: auto;
+	width: 30%;
+	background-color: dodgerblue;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 7px;
+}
+
+.emi-result-box:hover,
+.emi-result-box:active {
+	background-color: #7868e6;
+	transform: scaleX(1.02);
+	transition: all ease-out 0.4s;
+}
+
+table.table-bordered {
+	border: 1px groove #433520;
+	margin-top: 20px;
+}
+
+table.table-bordered > thead > tr > th {
+	border: 1px groove #433520;
+}
+
+table.table-bordered > tbody > tr > td {
+	border: 1px groove #433520;
+}
+
+.footer {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 10px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.footer a {
+	color: #93329e;
+	font-size: 11px;
+	text-decoration: none;
+}
